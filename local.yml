@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+    - name: update packages
+      apt:
+         name: "*"
+         state: latest
